@@ -13,7 +13,7 @@ This package provides Adobe Sign OAuth 2.0 support for The PHP League's [OAuth 2
 To install, use composer:
 
 ```
-composer require kevinem/oauth2-adobe-sign
+composer require subhamchbt/adobe-oauth2
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ $provider = new KevinEm\OAuth2\Client\AdobeSign([
 ]);
 ```
 
-## License 
+## License
 
 The MIT License (MIT)
 Copyright (c) 2016 Kevin Em
