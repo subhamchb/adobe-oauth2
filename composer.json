@@ -1,0 +1,30 @@
+{
+  "name": "subhamchbt/adobe-oauth2",
+  "description": "Adobe Oauth2 Client for PHP",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=5.6.0",
+    "league/oauth2-client": "^2.6.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.4",
+    "mockery/mockery": "^0.9.5"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kevin Em",
+      "email": "kevinem@thinkdevise.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KevinEm\\OAuth2\\Client\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "KevinEm\\OAuth2\\Client\\Test\\": "tests/"
+    }
+  }
+}
