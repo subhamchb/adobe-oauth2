@@ -13,7 +13,7 @@ This package provides Adobe Sign OAuth 2.0 support for The PHP League's [OAuth 2
 To install, use composer:
 
 ```
-composer require subhamchbt/adobe-oauth2
+composer require subhamchbt/oauth2-adobe-sign
 ```
 
 ## Usage
